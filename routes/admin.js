@@ -6,7 +6,7 @@ const jwt=require('jsonwebtoken');
 const JWT_SECRET=process.env.JWT_ADMIN_SECRET;
 const{ adminmiddleware }=require('../middleware/admin.js');
 
-
+//signing up admin
 adminRouter.post('/signup',async function(req,res){
         const email=req.body.email;
         const password=req.body.password;
