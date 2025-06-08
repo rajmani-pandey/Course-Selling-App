@@ -16,7 +16,7 @@ const Admin=new Schema({
     lastname:String
 })
 
-
+//hiii 
 const Course=new Schema({
     title:String,
     description:String,
